@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.online/epg.xml.gz,http://epg.one/epg2.xml.gz"
 
 #EXTINF:-1 tvg-name="Беларусь 1" tvg-logos="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/belarus1hd.png",Беларусь 1
 https://mfe.svc.ott.zala.by/hls/M52YG9EVYD_HLS/variant.m3u8
