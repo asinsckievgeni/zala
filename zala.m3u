@@ -153,6 +153,9 @@ https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Timeless Dizi Channel" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/timeless-dizi.png",Timeless Dizi Channel
 https://mfe.svc.ott.zala.by/hls/CH_DIZI_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="NovellaTV" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/novellatv.png",NovellaTV
+https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="Наш кинопоказ" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/nash-kinopokaz.png",Наш кинопоказ
 https://mfe.svc.ott.zala.by/hls/CH_ZAL13_HLS/variant.m3u8
 
