@@ -84,7 +84,7 @@ https://mfe.svc.ott.zala.by/hls/CH_GRODNO_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Интекс ТВ" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/inteks-baran.png",Интекс ТВ
 https://mfe.svc.ott.zala.by/hls/CH_INTEX_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="БугТВ" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/bug-tv.png",БугТВ
+#EXTINF:-1 tvg-name="Буг-ТВ" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/bug-tv.png",БугТВ
 https://mfe.svc.ott.zala.by/hls/CH_BUGTV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Лида" tvg-logo="https://raw.githubusercontent.com/asinsckievgeni/logos/refs/heads/main/lida.png",Лида
