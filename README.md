@@ -1,14 +1,14 @@
 # Файлы
 
-## 1. epg.txt
+## 1. [epg.txt](https://github.com/asinsckievgeni/zala/blob/main/epg.txt)
 
 Список ссылок на источники epg.
 
-## 2. zala.m3u
+## 2. [zala.m3u](https://github.com/asinsckievgeni/zala/blob/main/zala.m3u)
 
 Сгенерированный плейлист.
 
-## 3. url_playlist.txt
+## 3. [url_playlist.txt](https://github.com/asinsckievgeni/zala/blob/main/url_playlist.txt)
 
 Ссылка на плейлист для подключения по сети.
 
