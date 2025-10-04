@@ -297,6 +297,9 @@ https://mfe.svc.ott.zala.by/hls/CH_MIRSERIALA_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Киноман" tvg-logo="https://asinsckievgeni.github.io/logos/kinosat.png",Киноман
 https://mfe.svc.ott.zala.by/hls/CH_KINOMAN_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Родное кино International" tvg-logo="https://asinsckievпeni.github.io/logos/rodnoe-kino.png",Родное кино
+https://mfe.svc.ott.zala.by/hls/CH_NTVPLUSNASHEKINO_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="Киносемья" tvg-logo="https://asinsckievgeni.github.io/logos/kinosemia.png",Киносемья
 https://mfe.svc.ott.zala.by/hls/FEDXG8XPOR_HLS/variant.m3u8
 
