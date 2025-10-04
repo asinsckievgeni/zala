@@ -390,6 +390,9 @@ https://mfe.svc.ott.zala.by/hls/CH_LMC_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Футбол" tvg-logo="https://asinsckievgeni.github.io/logos/football-ru.png",Футбол
 https://mfe.svc.ott.zala.by/hls/CH_FOOTBALL_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Матч! Планета" tvg-logo="https://asinsckievgeni.github.io/logos/match-planeta.png",Матч! Планета
+https://mfe.svc.ott.zala.by/hls/CH_MATCHPLANETA_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="KHL" tvg-logo="https://asinsckievgeni.github.io/logos/kxl.png",KHL
 https://mfe.svc.ott.zala.by/hls/36H3IDE2WF_HLS/variant.m3u8
 
