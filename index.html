@@ -192,14 +192,14 @@
     </footer>
   </div>
 
-  <script>
-    // Автоматическое обновление даты (опционально)
+   <script>
+    // Автоматическое обновление даты в формате DD.MM.YYYY
     try {
       const date = new Date();
-      document.getElementById('last-updated').textContent = 
-       String(date.getDate()).padStart(2, '0');
-       String(date.getMonth() + 1).padStart(2, '0') + '-' + 
-        date.getFullYear() + '-' +
+      const day = String(date.getDate()).padStart(2, '0');
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const year = date.getFullYear();
+      document.getElementById('last-updated').textContent = `${day}.${month}.${year}`;
     } catch (e) {}
 
     // Обработка кликов по файлам для просмотра
