@@ -99,6 +99,9 @@ https://mfe.svc.ott.zala.by/hls/EDVYQYGHF8_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Киномикс International" tvg-logo="https://asinsckievgeni.github.io/logos/kinomiks.png",Киномикс
 https://mfe.svc.ott.zala.by/hls/VVG76MWUGX_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Любимое кино" tvg-logo="https://asinsckievgeni.github.io/logos/lubimoe-kino.png",Любимое кино
+https://mfe.svc.ott.zala.by/hls/CH_NASHEKINO_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="TV 1000" tvg-logo="https://asinsckievgeni.github.io/logos/tv1000.png",TV 1000
 https://mfe.svc.ott.zala.by/hls/6WMZMUEWGN_HLS/variant.m3u8
 
