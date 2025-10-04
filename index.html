@@ -74,6 +74,7 @@
       text-decoration: none;
       font-weight: 500;
       flex: 1;
+      cursor: pointer;
     }
     .file-link:hover {
       color: var(--accent);
@@ -94,6 +95,7 @@
       margin-left: 1rem;
       font-weight: 500;
       transition: background 0.2s;
+      cursor: pointer;
     }
     .btn:hover {
       background: #0d62d0;
@@ -135,9 +137,9 @@
       <h2>📺 Плейлист</h2>
       <ul class="file-list">
         <li class="file-item">
-          <span>
+          <span class="file-link" data-file="zala.m3u">
             <span class="file-icon">📄</span>
-            <a href="zala.m3u" class="file-link">zala.m3u</a>
+            zala.m3u
           </span>
           <a href="zala.m3u" class="btn" download>Скачать</a>
         </li>
@@ -148,16 +150,16 @@
       <h2>🐍 Скрипты</h2>
       <ul class="file-list">
         <li class="file-item">
-          <span>
+          <span class="file-link" data-file="zala_copilot.py">
             <span class="file-icon">⚙️</span>
-            <a href="zala_copilot.py" class="file-link">zala_copilot.py</a>
+            zala_copilot.py
           </span>
           <a href="zala_copilot.py" class="btn" download>Скачать</a>
         </li>
         <li class="file-item">
-          <span>
+          <span class="file-link" data-file="zala_qwin.py">
             <span class="file-icon">⚙️</span>
-            <a href="zala_qwin.py" class="file-link">zala_qwin.py</a>
+            zala_qwin.py
           </span>
           <a href="zala_qwin.py" class="btn" download>Скачать</a>
         </li>
@@ -168,16 +170,16 @@
       <h2>📄 Текстовые файлы</h2>
       <ul class="file-list">
         <li class="file-item">
-          <span>
+          <span class="file-link" data-file="url-playlist.txt">
             <span class="file-icon">📝</span>
-            <a href="url-playlist.txt" class="file-link">url-playlist.txt</a>
+            url-playlist.txt
           </span>
           <a href="url-playlist.txt" class="btn" download>Скачать</a>
         </li>
         <li class="file-item">
-          <span>
+          <span class="file-link" data-file="epg.txt">
             <span class="file-icon">📝</span>
-            <a href="epg.txt" class="file-link">epg.txt</a>
+            epg.txt
           </span>
           <a href="epg.txt" class="btn" download>Скачать</a>
         </li>
@@ -195,10 +197,56 @@
     try {
       const date = new Date();
       document.getElementById('last-updated').textContent = 
-        date.getFullYear() + '-' + 
-        String(date.getMonth() + 1).padStart(2, '0') + '-' + 
-        String(date.getDate()).padStart(2, '0');
+       String(date.getDate()).padStart(2, '0');
+       String(date.getMonth() + 1).padStart(2, '0') + '-' + 
+        date.getFullYear() + '-' +
     } catch (e) {}
+
+    // Обработка кликов по файлам для просмотра
+    document.querySelectorAll('.file-link').forEach(link => {
+      link.addEventListener('click', async (e) => {
+        const fileName = link.getAttribute('data-file');
+        if (!fileName) return;
+        
+        try {
+          const response = await fetch(fileName);
+          if (!response.ok) {
+            throw new Error(`Файл не найден: ${response.status}`);
+          }
+          
+          const content = await response.text();
+          const newWindow = window.open('', '_blank');
+          newWindow.document.write(`
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <title>${fileName}</title>
+              <style>
+                body { 
+                  font-family: monospace; 
+                  margin: 20px; 
+                  white-space: pre-wrap;
+                  background: #f8f9fa;
+                  color: #1a1a1a;
+                }
+                h1 { 
+                  margin-bottom: 20px; 
+                  color: #1a73e8;
+                }
+              </style>
+            </head>
+            <body>
+              <h1>${fileName}</h1>
+              <div>${content.replace(/</g, '<').replace(/>/g, '>')}</div>
+            </body>
+            </html>
+          `);
+          newWindow.document.close();
+        } catch (error) {
+          alert(`Ошибка при загрузке файла ${fileName}: ${error.message}`);
+        }
+      });
+    });
   </script>
 </body>
 </html>
