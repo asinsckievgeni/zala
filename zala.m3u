@@ -15,6 +15,9 @@ https://mfe.svc.ott.zala.by/hls/M4K3ZYBPWQ_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Первый информационный Беларусь" tvg-logo="https://asinsckievgeni.github.io/logos/pervy-info-by.png",Первый информационный
 https://mfe.svc.ott.zala.by/hls/CH_1INFORM_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Первый информационный Беларусь" tvg-logo="https://asinsckievgeni.github.io/logos/pervy-info-by.png",Первый информационный Витебск
+https://mfe.svc.ott.zala.by/hls/CH_1INFORMVIT_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="РТР Беларусь" tvg-logo="https://asinsckievgeni.github.io/logos/rtr-belarus.png",РТР Беларусь
 https://mfe.svc.ott.zala.by/hls/7MQSYYGHFE_HLS/variant.m3u8
 
