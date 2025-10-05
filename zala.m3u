@@ -369,7 +369,7 @@ https://mfe.svc.ott.zala.by/hls/CH_FENIKS_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="VHS-ка" tvg-logo="https://asinsckievgeni.github.io/logos/vhs-ka.png",VHS-ка
 https://mfe.svc.ott.zala.by/hls/CH_VHS_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Охотник и рыболов",tvg-logo="https://github.asinsckievgeni/logos/oxotnik-i-rybolov-hd.png",Охотник и рыболов
+#EXTINF:-1 tvg-name="Охотник и рыболов",tvg-logo="https://github.asinsckievgeni.io/logos/oxotnik-i-rybolov-hd.png",Охотник и рыболов
 https://mfe.svc.ott.zala.by/hls/4FDNBEDGFV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Советские мультфильмы" tvg-logo="https://asinsckievgeni.github.io/logos/sovmultf.png",Советские мультфильмы
