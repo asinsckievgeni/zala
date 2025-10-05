@@ -177,6 +177,9 @@ https://mfe.svc.ott.zala.by/hls/CH_RYBALKAIOHOTA_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Арсенал" tvg-logo="https://asinsckievgeni.github.io/logos/arsenaltv.png",Арсенал
 https://mfe.svc.ott.zala.by/hls/CH_ARSENAL_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="НТВ Право" tvg-logo="https://asinsckievgeni.github.io/logos/ntv-pravo.png",НТВ Право
+https://mfe.svc.ott.zala.by/hls/CH_NTVPRAVO_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="Совершенно секретно" tvg-logo="https://asinsckievgeni.github.io/logos/sovsek.png",Совершенно секретно
 https://mfe.svc.ott.zala.by/hls/CH_SOVSEKRET_HLS/variant.m3u8
 
