@@ -75,27 +75,6 @@ https://mfe.svc.ott.zala.by/hls/CH_PLUSTV_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Мир 24" tvg-logo="https://asinsckievgeni.github.io/logos/mir24.png",Мир 24
 https://mfe.svc.ott.zala.by/hls/CH_MIR24HD_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Первый городской (Гомель)" tvg-logo="https://asinsckievgeni.github.io/logos/pervy-gorodskoy-gom.png",Первый городской
-https://mfe.svc.ott.zala.by/hls/CH_GOMEL_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Гродно Плюс" tvg-logo="https://asinsckievgeni.github.io/logos/grodno-plus.png",Гродно Плюс
-https://mfe.svc.ott.zala.by/hls/CH_GRODNO_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Интекс ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/inteks-baran.png",Интекс ТВ
-https://mfe.svc.ott.zala.by/hls/CH_INTEX_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Буг-ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/bug-tv.png",БугТВ
-https://mfe.svc.ott.zala.by/hls/CH_BUGTV_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Лагуна ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/lagunatv.png",Лагуна ТВ
-https://mfe.svc.ott.zala.by/hls/CH_LAGUNA_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Лида" tvg-logo="https://asinsckievgeni.github.io/logos/lida.png",Лида
-https://mfe.svc.ott.zala.by/hls/CH_LIDA_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Пинск ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/pinsk-tv.png",Пинск ТВ
-https://mfe.svc.ott.zala.by/hls/CH_PINSK_HLS/variant.m3u8
-
 #EXTINF:-1 tvg-name=".Sci-Fi" tvg-logo="https://asinsckievgeni.github.io/logos/sony-scifi.png",.Sci-Fi
 https://mfe.svc.ott.zala.by/hls/EDVYQYGHF8_HLS/variant.m3u8
 
