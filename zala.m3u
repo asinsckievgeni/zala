@@ -153,11 +153,17 @@ https://mfe.svc.ott.zala.by/hls/CH_EVROKINO_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Наука HD" tvg-logo="https://asinsckievgeni.github.io/logos/nauka-20.png",Наука HD
 https://mfe.svc.ott.zala.by/hls/LWWBCKZAPZ_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Viasat History" tvg-logo="https://asinsckievgeni.github.io/logos/viasat-history.png",Viasat History
+https://mfe.svc.ott.zala.by/hls/CH_VIASATHISTORY_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="Моя планета" tvg-logo="https://asinsckievgeni.github.io/logos/moya-planeta.png",Моя планета
 https://mfe.svc.ott.zala.by/hls/FV47BRVQW4_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Звезда Плюс" tvg-logo="https://asinsckievgeni.github.io/logos/zvezda-plus.png",Звезда Плюс
 https://mfe.svc.ott.zala.by/hls/CH_ZVEZDA_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-name="Viasat Explore" tvg-logo="https://asinsckievgeni.github.io/logos/viasat-explore.png",Viasat Explore
+https://mfe.svc.ott.zala.by/hls/JQQ83OBHTQ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Nature" tvg-logo="https://asinsckievgeni.github.io/logos/viasat-nature.png",Viasat Nature
 https://mfe.svc.ott.zala.by/hls/BN3FTDY3T8_HLS/variant.m3u8
@@ -369,7 +375,7 @@ https://mfe.svc.ott.zala.by/hls/CH_FENIKS_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="VHS-ка" tvg-logo="https://asinsckievgeni.github.io/logos/vhs-ka.png",VHS-ка
 https://mfe.svc.ott.zala.by/hls/CH_VHS_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Охотник и рыболов" tvg-logo="https://github.asinsckievgeni.io/logos/oxotnik-i-rybolov-hd.png",Охотник и рыболов
+#EXTINF:-1 tvg-name="Охотник и рыболов",tvg-logo="https://asinsckievgeni.github.io/logos/oxotnik-i-rybolov-hd.png",Охотник и рыболов
 https://mfe.svc.ott.zala.by/hls/4FDNBEDGFV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Советские мультфильмы" tvg-logo="https://asinsckievgeni.github.io/logos/sovmultf.png",Советские мультфильмы
