@@ -30,6 +30,9 @@ https://mfe.svc.ott.zala.by/hls/JRKVSUPCP8_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Беларусь 2" tvg-logo="https://asinsckievgeni.github.io/logos/belarus2hd.png",Беларусь 2
 https://mfe.svc.ott.zala.by/hls/GCKYZGGFEJ_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Спорт ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/sporttv.png",Спорт ТВ
+
+
 #EXTINF:-1 tvg-name="ЯСНАе TV" tvg-logo="https://asinsckievgeni.github.io/logos/yasnae.png",ЯСНАе TV
 https://mfe.svc.ott.zala.by/hls/CH_MINSKTV_HLS/variant.m3u8
 
