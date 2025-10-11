@@ -303,15 +303,6 @@ https://mfe.svc.ott.zala.by/hls/CH_GALAXY_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Глазами туриста" tvg-logo="https://asinsckievgeni.github.io/logos/glazami-turista.png",Глазами туриста
 https://mfe.svc.ott.zala.by/hls/CH_GLAZTUR_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Психология 21" tvg-logo="https://asinsckievgeni.github.io/logos/psixologia-21.png",Психология 21
-https://mfe.svc.ott.zala.by/hls/CH_PSYCHOLOGY_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Здоровое ТВ" tvg-logo="https://asinsckievgeni.github.io/logos/zdorovoe-tv.png",Здоровое ТВ
-https://mfe.svc.ott.zala.by/hls/CH_ZDOROVOETV_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Домашние животные" tvg-logo="https://asinsckievgeni.github.io/logos/domashnie-zhivotnye.png",Домашние животные
-https://mfe.svc.ott.zala.by/hls/CH_DOMZHIVOTNYE_HLS/variant.m3u8
-
 #EXTINF:-1 tvg-name="Cartoon Classics" tvg-logo="https://asinsckievgeni.github.io/logos/cartoon-classics.png",Cartoon Classics
 https://mfe.svc.ott.zala.by/hls/CH_CARTOONCLASSICS_HLS/variant.m3u8
 
