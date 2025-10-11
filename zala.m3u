@@ -255,20 +255,11 @@ https://mfe.svc.ott.zala.by/hls/CH_UNIKUM_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="КиноМульт" tvg-logo="https://asinsckievgeni.github.io/logos/kinomult.png",КиноМульт
 https://mfe.svc.ott.zala.by/hls/CH_KINOMULT_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="ducktv" tvg-logo="https://asinsckievgeni.github.io/logos/ducktv.png",ducktv
-https://mfe.svc.ott.zala.by/hls/CH_DUCKTV_HLS/variant.m3u8
-
 #EXTINF:-1 tvg-name="KHL Prime" tvg-logo="https://asinsckievgeni.github.io/logos/kxl-hd.png",KHL Prime
 https://mfe.svc.ott.zala.by/hls/CH_KHLPRIME_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="MMA-TV.COM" tvg-logo="https://asinsckievgeni.github.io/logos/m1global.png",MMA-TV.COM
 https://mfe.svc.ott.zala.by/hls/CH_M1_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Драйв" tvg-logo="https://asinsckievgeni.github.io/logos/drive.png",Драйв
-https://mfe.svc.ott.zala.by/hls/CH_DRIVE_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-name="Авто 24" tvg-logo="https://asinsckievgeni.github.io/logos/avto24.png",Авто 24
-https://mfe.svc.ott.zala.by/hls/CH_AVTO24_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Мир сериала" tvg-logo="https://asinsckievgeni.github.io/logos/mir-seriala.png",Мир сериала
 https://mfe.svc.ott.zala.by/hls/CH_MIRSERIALA_HLS/variant.m3u8
