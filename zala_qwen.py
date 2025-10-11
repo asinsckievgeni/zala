@@ -1,85 +1,122 @@
 import requests
-from time import sleep
 import urllib3
 
-# Отключаем предупреждения о небезопасных SSL соединениях
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-url_list = [
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=59028300&locationId=1111&from=0&to=9999',
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=5471515&locationId=10000081&from=0&to=9999&lang=RUS',
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=9119099&locationId=10000081&from=0&to=9999&lang=RUS',
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=9119102&locationId=10000081&from=0&to=9999&lang=RUS',
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=47320362&locationId=10000081&from=0&to=9999&lang=RUS',
-    'http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels?channelPackageId=175085983&locationId=10000081&from=0&to=9999&lang=RUS'
+package_ids = [
+    "59028300", "5471515", "9119099", "9119102",
+    "47320362", "175085983", "46938273"
 ]
+location_ids = ["1111", "10000081", "10000071", "10000080", "10000082", "10000083", "10000084", "10000085"]
 
-data = []
+url_list = []
+for pkg in package_ids:
+    for loc in location_ids:
+        url_list.append(
+            f"http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels"
+            f"?channelPackageId={pkg}&locationId={loc}&from=0&to=9999&lang=RUS"
+        )
 
-# Проходим по каждому URL в списке url_list
+all_channels = []
+
 for url in url_list:
-    response = requests.get(url, verify=False)
-    if response.status_code == 200:
-        data.append(response.json()["channels_list"])
-    else:
-        print(f"Ошибка при получении данных по ссылке {url}. Код ответа: {response.status_code}")
+    try:
+        response = requests.get(url, verify=False, timeout=8)
+        if response.status_code != 200:
+            continue
+        data = response.json()
+        channels = data.get("channels_list", [])
+        all_channels.extend(channels)
+    except Exception:
+        continue
 
-# Объединяем все полученные данные в один список
-data = [channel for sublist in data for channel in sublist]
-# Сортируем каналы по num
-data.sort(key=lambda x: int(x["num"]))
+# === Правильные идентификаторы в URL ===
+INFO_DESIRED = "CH_1INFORMVIT_HLS"
+BEL4_DESIRED = "CH_BELARUS4VIT_HLS"  # ← ИСПРАВЛЕНО!
 
-playlist = []
-channel_list = []
+filtered_channels = []
+seen_names = set()
+info_added = False
+bel4_added = False
 
-playlist.append("#EXTM3U")
+for ch in all_channels:
+    bcname = ch.get("bcname", "")
+    if not bcname:
+        continue
 
-for channel in data:
-    # Проверяем, что канал не зашифрован и использует HLS
-    if channel["isOttEncrypted"] == "0" and channel["videoServerProtocol"] == "hls":
-        # Пропускаем дубликаты
-        if channel["bcname"] in channel_list:
+    ott_url = (
+        ch.get("ottURL") or
+        ch.get("smlOttURL") or
+        ch.get("tstvOttURL") or
+        ch.get("plOttURL") or
+        ""
+    )
+    if isinstance(ott_url, list):
+        ott_url = ott_url[0] if ott_url else ""
+    ott_url = str(ott_url).strip()
+
+    if not ott_url.endswith(".m3u8"):
+        continue
+
+    is_encrypted = ch.get("isOttEncrypted")
+    if is_encrypted is not None:
+        is_encrypted = str(is_encrypted).strip()
+        if is_encrypted not in ("0", "false", ""):
             continue
 
-        # Получаем URL для проверки
-        ott_url_raw = channel["ottURL"]
-        if isinstance(ott_url_raw, list):
-            if len(ott_url_raw) == 0:
-                print(f"Канал {channel['bcname']} — пустой список URL, пропускаем")
-                continue
-            test_url = ott_url_raw[0].replace("https://", "http://")
-        elif isinstance(ott_url_raw, str):
-            test_url = ott_url_raw.replace("https://", "http://")
-        else:
-            print(f"Канал {channel['bcname']} — неизвестный тип ottURL: {type(ott_url_raw)}, пропускаем")
-            continue
+    protocol = ch.get("videoServerProtocol")
+    if protocol and protocol != "hls":
+        continue
 
-        # Проверяем доступность URL
-        try:
-            response = requests.head(test_url, verify=False, timeout=10)
-            if response.status_code == 404:
-                print(f"Канал {channel['bcname']} недоступен (404), пропускаем")
-                continue
-            # Можно также проверить другие коды, например != 200, но 404 — основной индикатор
-        except requests.RequestException as e:
-            print(f"Ошибка при проверке канала {channel['bcname']}: {e}, пропускаем")
-            continue
+    # === Первый информационный ===
+    if bcname == "Первый информационный":
+        if not info_added and INFO_DESIRED in ott_url:
+            ch["_final_url"] = ott_url
+            filtered_channels.append(ch)
+            info_added = True
+        continue
 
-        # Добавляем канал в плейлист
-        playlist.append(f'#EXTINF:-1 tvg-name="{channel["bcname"]}" tvg-logo="{channel["logo"]}",{channel["bcname"]}')
-        
-        # Вставляем в плейлист тот же URL, что и проверяли (или первый из списка)
-        if isinstance(channel["ottURL"], list):
-            stream_url = channel["ottURL"][0]  # берем первый URL
-        else:
-            stream_url = channel["ottURL"]
+    # === Беларусь 4 (все варианты имени) ===
+    if bcname.startswith("Беларусь 4"):
+        if not bel4_added and BEL4_DESIRED in ott_url:
+            ch["_final_url"] = ott_url
+            filtered_channels.append(ch)
+            bel4_added = True
+        continue
 
-        playlist.append(stream_url)
-        channel_list.append(channel["bcname"])
-        print(f"Добавлен канал: {channel['num']} ({channel['bcname']})")
+    # === Остальные каналы ===
+    if bcname not in seen_names:
+        ch["_final_url"] = ott_url
+        filtered_channels.append(ch)
+        seen_names.add(bcname)
 
-# Сохраняем плейлист в файл
+# Сортировка
+def safe_int(x):
+    try:
+        return int(x)
+    except:
+        return 999999
+
+filtered_channels.sort(key=lambda c: safe_int(c.get("num", 999999)))
+
+print("Найденные каналы:")
+for ch in filtered_channels:
+    num = ch.get("num", "").strip()
+    bcname = ch.get("bcname", "Unknown").strip()
+    print(f"[{num}] {bcname}")
+
+# Запись плейлиста
 with open("zala.m3u", "w", encoding="utf-8") as f:
-    f.write("\n".join(playlist))
+    f.write("#EXTM3U\n")
+    for ch in filtered_channels:
+        bcname = str(ch.get("bcname", "Unknown")).strip()
+        logo = str(ch.get("logo", "")).strip()
+        ott_url = ch.get("_final_url", "")
 
-print("Плейлист IPTV успешно создан!")
+        if not ott_url.endswith(".m3u8"):
+            continue
+
+        f.write(f'#EXTINF:-1 tvg-name="{bcname}" tvg-logo="{logo}",{bcname}\n')
+        f.write(f'{ott_url}\n')
+
+print(f"\nПлейлист сохранен: zala.m3u ({len(filtered_channels)} каналов)")
