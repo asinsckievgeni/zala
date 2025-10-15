@@ -1,18 +1,20 @@
 # Файлы
 
-## 1. [epg.txt](https://github.com/asinsckievgeni/zala/blob/main/epg.txt)
+##  [epg.txt](https://github.com/asinsckievgeni/zala/blob/main/epg.txt)
 
 Список ссылок на источники epg.
 
-## 2. [zala.m3u](https://github.com/asinsckievgeni/zala/blob/main/zala.m3u)
+##  [zala.m3u](https://github.com/asinsckievgeni/zala/blob/main/zala.m3u)
 
 Сгенерированный плейлист.
 
-## 3. [url_playlist.txt](https://github.com/asinsckievgeni/zala/blob/main/url_playlist.txt)
+##  [url_playlist.txt](https://github.com/asinsckievgeni/zala/blob/main/url_playlist.txt)
 
 Ссылка на плейлист для подключения по сети.
 
-## 4. Генератор плейлиста Zala
+Логотипы каналов ТВ
+
+##  Генератор плейлиста Zala
 
 Этот скрипт позволяет создать плейлист IPTV из незашифрованных каналов для сервиса Zala, используя данные из их API.
 Идея взята [здесь](https://github.com/valujin/zala-iptv-playlist-generator). Скрипт переделан с помощью ИИ, так как я не умею программировать.
