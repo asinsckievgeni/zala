@@ -12,6 +12,8 @@
       --card-bg: #f8f9fa;
       --border: #e0e0e0;
       --text-secondary: #666;
+      --warning-bg: #fff8e1;
+      --warning-border: #ffd54f;
     }
     body {
       background: var(--bg);
@@ -100,6 +102,15 @@
     .btn:hover {
       background: #0d62d0;
     }
+    .warning {
+      background: var(--warning-bg);
+      border-left: 4px solid var(--warning-border);
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.95rem;
+      color: #5d4037;
+    }
     footer {
       text-align: center;
       margin-top: 3rem;
@@ -179,14 +190,32 @@
       </ul>
     </section>
 
+    <!-- НОВЫЙ РАЗДЕЛ: ЛОГОТИПЫ -->
+    <section class="section">
+      <h2>🖼️ Логотипы</h2>
+      <div class="warning">
+        ⚠️ Все логотипы предназначены <strong>исключительно для личного некоммерческого использования</strong>.  
+        Их распространение или коммерческое применение запрещены.
+      </div>
+      <ul class="file-list">
+        <li class="file-item">
+          <a href="logos/" class="file-link" style="display: flex; align-items: center;">
+            <span class="file-icon">📁</span>
+            Папка с логотипами
+          </a>
+          <!-- Кнопка "Скачать" не нужна — это каталог -->
+        </li>
+      </ul>
+    </section>
+
     <footer>
       <p>Обновлено: <span id="last-updated">03.10.2025</span></p>
       <p>Для IPTV-плееров используйте прямую ссылку на <code>zala.m3u</code></p>
     </footer>
   </div>
 
-   <script>
-    // Автоматическое обновление даты в формате DD.MM.YYYY
+  <script>
+    // Автоматическое обновление даты
     try {
       const date = new Date();
       const day = String(date.getDate()).padStart(2, '0');
@@ -195,17 +224,16 @@
       document.getElementById('last-updated').textContent = `${day}.${month}.${year}`;
     } catch (e) {}
 
-    // Обработка кликов по файлам для просмотра
-    document.querySelectorAll('.file-link').forEach(link => {
+    // Обработка кликов по файлам (только для текстовых)
+    document.querySelectorAll('.file-link[data-file]').forEach(link => {
       link.addEventListener('click', async (e) => {
+        e.preventDefault();
         const fileName = link.getAttribute('data-file');
         if (!fileName) return;
         
         try {
           const response = await fetch(fileName);
-          if (!response.ok) {
-            throw new Error(`Файл не найден: ${response.status}`);
-          }
+          if (!response.ok) throw new Error(`Файл не найден: ${response.status}`);
           
           const content = await response.text();
           const newWindow = window.open('', '_blank');
