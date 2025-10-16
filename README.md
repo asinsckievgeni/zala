@@ -13,8 +13,7 @@
 Ссылка на плейлист для подключения по сети.
 
 ## Логотипы каналов ТВ
-## [Логотипы каналов](
-https://github.com/asinsckievgeni/zala/tree/main/logos)
+## [Логотипы каналов](https://github.com/asinsckievgeni/zala/tree/main/logos)
 
 ##  Генератор плейлиста Zala
 
