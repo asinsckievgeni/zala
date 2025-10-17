@@ -1,2 +1,2 @@
-Плейлист           https://asinsckievgeni.github.io/zala/zala.m3u
-Программа передач  https://asinsckievgeni.github.io/zala/epg.xml.gz
+https://asinsckievgeni.github.io/zala/zala.m3u
+
