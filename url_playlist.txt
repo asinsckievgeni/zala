@@ -1,2 +1,4 @@
 https://asinsckievgeni.github.io/zala/zala.m3u
+https://asinsckievgeni.github.io/zala/epg.xml.gz
+https://asinsckievgeni.github.io/zala/ru2.xml.gz
 
