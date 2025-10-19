@@ -30,7 +30,7 @@ https://mfe.svc.ott.zala.by/hls/JRKVSUPCP8_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Беларусь 2" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus2hd.png",Беларусь 2
 https://mfe.svc.ott.zala.by/hls/GCKYZGGFEJ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="ЯСНАе TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png",ЯСНАе TV
+#EXTINF:-1 tvg-name="Яснае ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png",ЯСНАе TV
 https://mfe.svc.ott.zala.by/hls/CH_MINSKTV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="ТНТ-International (Беларусь)" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tnt-int-by.png",ТНТ International
@@ -42,7 +42,7 @@ https://mfe.svc.ott.zala.by/hls/CH_BELARUS4VIT_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="ТВ-3 Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv3-by.png",ТВ-3 Беларусь
 https://mfe.svc.ott.zala.by/hls/KLQQ9ECGSQ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="8 Канал Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/8by.png",8 Канал
+#EXTINF:-1 tvg-name="8 канал Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/8by.png",8 Канал
 https://mfe.svc.ott.zala.by/hls/ZXUZZKCA6P_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="RU.TV Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ru-tv-by.png",RU.TV
@@ -63,7 +63,7 @@ https://mfe.svc.ott.zala.by/hls/CH_PLUSTV_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Мир 24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir24.png",Мир 24
 https://mfe.svc.ott.zala.by/hls/CH_MIR24HD_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name=".Sci-Fi" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-scifi.png",.Sci-Fi
+#EXTINF:-1 tvg-name=".sci-fi" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-scifi.png",.sci-fi
 https://mfe.svc.ott.zala.by/hls/EDVYQYGHF8_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Киномикс International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinomiks.png",Киномикс
@@ -78,7 +78,7 @@ https://mfe.svc.ott.zala.by/hls/6WMZMUEWGN_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Мужское кино International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/muzhskoe-kino.png",Мужское кино
 https://mfe.svc.ott.zala.by/hls/W7LNWHFGTB_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Русский Иллюзион" tvg-logo="https://asinsckievgeni.github.io/zala/logos/russky-illuzion.png",Русский Иллюзион
+#EXTINF:-1 tvg-name="Русский иллюзион" tvg-logo="https://asinsckievgeni.github.io/zala/logos/russky-illuzion.png",Русский иллюзион
 https://mfe.svc.ott.zala.by/hls/CMV4SNACFQ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="TV 1000 Русское кино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv1000-russkoe-kino.png",TV 1000 Русское кино
@@ -93,7 +93,7 @@ https://mfe.svc.ott.zala.by/hls/CH_KINOCOMED_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Cinema" tvg-logo="https://asinsckievgeni.github.io/zala/logos/cinema-ru.png",Cinema
 https://mfe.svc.ott.zala.by/hls/CH_CINEMA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Дом Кино Премиум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino-premium.png",Дом Кино Премиум
+#EXTINF:-1 tvg-name="Дом кино Премиум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino-premium.png",Дом кино Премиум
 https://mfe.svc.ott.zala.by/hls/CH_DOMPREMIUM_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="НТВ Сериал" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ntv-serial.png",НТВ Сериал
@@ -105,7 +105,7 @@ https://mfe.svc.ott.zala.by/hls/CH_KINOSVIDANIE_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Мосфильм. Золотая коллекция" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mosfilm.png",Мосфильм. Золотая коллекция
 https://mfe.svc.ott.zala.by/hls/CH_MOSFILM_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Viju TV1000 Новелла HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viju-tv1000-novella.png",Viju TV1000 Новелла HD
+#EXTINF:-1 tvg-name="viju TV1000 Новелла" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viju-tv1000-novella.png",viju TV1000 Новелла
 https://mfe.svc.ott.zala.by/hls/CH_TV1000NOVELLA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Иллюзион+" tvg-logo="https://asinsckievgeni.github.io/zala/logos/illuzion-plus.png",Иллюзион+
@@ -114,10 +114,10 @@ https://mfe.svc.ott.zala.by/hls/CH_ILLUZPLUS_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Киносерия International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinoseria.png",Киносерия
 https://mfe.svc.ott.zala.by/hls/CH_KINOSERIA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name=".Red" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony.png",.Red
+#EXTINF:-1 tvg-name=".red" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony.png",.red
 https://mfe.svc.ott.zala.by/hls/CH_RED_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name=".Black" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-turbo.png",.Black
+#EXTINF:-1 tvg-name=".black" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-turbo.png",.black
 https://mfe.svc.ott.zala.by/hls/CH_BLACK_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Индия" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zee-tv.png",Индия
@@ -126,25 +126,25 @@ https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Timeless Dizi Channel" tvg-logo="https://asinsckievgeni.github.io/zala/logos/timeless-dizi.png",Timeless Dizi Channel
 https://mfe.svc.ott.zala.by/hls/CH_DIZI_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="NovellaTV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/novellatv.png",NovellaTV
+#EXTINF:-1 tvg-name="Novella TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/novellatv.png",NovellaTV
 https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Наш кинопоказ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png",Наш кинопоказ
+#EXTINF:-1 tvg-name="Наш Кинопоказ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png",Наш Кинопоказ
 https://mfe.svc.ott.zala.by/hls/CH_ZAL13_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Suspense" tvg-logo="https://asinsckievgeni.github.io/zala/logos/suspense.png",Suspense
 https://mfe.svc.ott.zala.by/hls/CH_SUSPENSE_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="ЕвроКино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/eurokino.png",ЕвроКино
+#EXTINF:-1 tvg-name="Еврокино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/eurokino.png",ЕвроКино
 https://mfe.svc.ott.zala.by/hls/CH_EVROKINO_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Наука HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nauka-20.png",Наука HD
+#EXTINF:-1 tvg-name="Наука 2.0" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nauka-20.png",Наука 2.0
 https://mfe.svc.ott.zala.by/hls/LWWBCKZAPZ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="viju History" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-history.png",viju History
 https://mfe.svc.ott.zala.by/hls/CH_VIASATHISTORY_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Моя планета" tvg-logo="https://asinsckievgeni.github.io/zala/logos/moya-planeta.png",Моя планета
+#EXTINF:-1 tvg-name="Моя Планета" tvg-logo="https://asinsckievgeni.github.io/zala/logos/moya-planeta.png",Моя Планета
 https://mfe.svc.ott.zala.by/hls/FV47BRVQW4_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Звезда Плюс" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zvezda-plus.png",Звезда Плюс
@@ -174,7 +174,7 @@ https://mfe.svc.ott.zala.by/hls/CH_NTVPRAVO_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Совершенно секретно" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sovsek.png",Совершенно секретно
 https://mfe.svc.ott.zala.by/hls/CH_SOVSEKRET_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Zooпарк" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zoopark.png",Zooпарк
+#EXTINF:-1 tvg-name="ZooПарк" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zoopark.png",ZooПарк
 https://mfe.svc.ott.zala.by/hls/CH_ZOOPARK_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Бобёр" tvg-logo="https://asinsckievgeni.github.io/zala/logos/bobior.png",Бобёр
@@ -183,7 +183,7 @@ https://mfe.svc.ott.zala.by/hls/CH_BOBER_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="НТВ Стиль" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ntv-style.png",НТВ Стиль
 https://mfe.svc.ott.zala.by/hls/CH_NTVSTIL_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="TERRA HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/terra-ru.png",Terra HD
+#EXTINF:-1 tvg-name="Terra" tvg-logo="https://asinsckievgeni.github.io/zala/logos/terra-ru.png",Terra
 https://mfe.svc.ott.zala.by/hls/CH_TERRAHD_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Дикая рыбалка HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/dikaya-rybalka-hd.png",Дикая рыбалка
@@ -204,7 +204,7 @@ https://mfe.svc.ott.zala.by/hls/CH_LUXURYHD_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Живая природа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zhivaya-priroda.png",Живая природа
 https://mfe.svc.ott.zala.by/hls/CH_ZHIVPRIRODA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Шансон ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/shanson-tv.png",Шансон ТВ
+#EXTINF:-1 tvg-name="Шансон-TB" tvg-logo="https://asinsckievgeni.github.io/zala/logos/shanson-tv.png",Шансон-ТВ
 https://mfe.svc.ott.zala.by/hls/3K2MEWVSDF_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Mezzo Live HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mezzo-live-hd.png",Mezzo Live HD
@@ -222,13 +222,13 @@ https://mfe.svc.ott.zala.by/hls/CH_PEREZ_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Сарафан" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sarafan.png",Сарафан
 https://mfe.svc.ott.zala.by/hls/Y9GP8UFTZO_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Epic HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/epic.png",Epic HD
+#EXTINF:-1 tvg-name="Epic" tvg-logo="https://asinsckievgeni.github.io/zala/logos/epic.png",Epic
 https://mfe.svc.ott.zala.by/hls/CH_EPIC_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Лапки LIVE" tvg-logo="https://asinsckievgeni.github.io/zala/logos/lapki-live.png",Лапки LIVE
+#EXTINF:-1 tvg-name="Лапки Live" tvg-logo="https://asinsckievgeni.github.io/zala/logos/lapki-live.png",Лапки Live
 https://mfe.svc.ott.zala.by/hls/CH_LAPKI_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Россия-Культура" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kultura.png",Россия-Культура
+#EXTINF:-1 tvg-name="Россия К" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kultura.png",Россия-Культура
 https://mfe.svc.ott.zala.by/hls/9XJGVFFAWZ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Анекдот ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/anekdottv.png",Анекдот ТВ
@@ -252,19 +252,19 @@ https://mfe.svc.ott.zala.by/hls/5MWF7XUWZI_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Уникум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/unikum.png",Уникум
 https://mfe.svc.ott.zala.by/hls/CH_UNIKUM_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="КиноМульт" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinomult.png",КиноМульт
+#EXTINF:-1 tvg-name="Киномульт" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinomult.png",Киномульт
 https://mfe.svc.ott.zala.by/hls/CH_KINOMULT_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="KHL Prime" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kxl-hd.png",KHL Prime
 https://mfe.svc.ott.zala.by/hls/CH_KHLPRIME_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="MMA-TV.COM" tvg-logo="https://asinsckievgeni.github.io/zala/logos/m1global.png",MMA-TV.COM
+#EXTINF:-1 tvg-name="MMA-TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/m1global.png",MMA-TV
 https://mfe.svc.ott.zala.by/hls/CH_M1_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Мир сериала" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir-seriala.png",Мир сериала
 https://mfe.svc.ott.zala.by/hls/CH_MIRSERIALA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Киноман" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinosat.png",Киноман
+#EXTINF:-1 tvg-name="Киносат" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinosat.png",Киноман
 https://mfe.svc.ott.zala.by/hls/CH_KINOMAN_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Родное кино International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/rodnoe-kino.png",Родное кино
@@ -288,13 +288,13 @@ https://mfe.svc.ott.zala.by/hls/CH_DOMKINO_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="НСТ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nst.png",НСТ
 https://mfe.svc.ott.zala.by/hls/NEZVX5TVZX_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Т 24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/texno-24.png",Т 24
+#EXTINF:-1 tvg-name="Т24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/texno-24.png",Т24
 https://mfe.svc.ott.zala.by/hls/ZIVFRAFR2I_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Оружие" tvg-logo="https://asinsckievgeni.github.io/zala/logos/oruzhie.png",Оружие
 https://mfe.svc.ott.zala.by/hls/EWEXU8FWAZ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Galaxy" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png",Тайны Галактики
+#EXTINF:-1 tvg-name="Galaxy TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png",Тайны Галактики
 https://mfe.svc.ott.zala.by/hls/CH_GALAXY_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Глазами туриста" tvg-logo="https://asinsckievgeni.github.io/zala/logos/glazami-turista.png",Глазами туриста
@@ -345,7 +345,7 @@ https://mfe.svc.ott.zala.by/hls/CH_EROX_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Русская ночь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/russkaya-noch.png",Русская ночь
 https://mfe.svc.ott.zala.by/hls/CH_RUSSKAYANOCH_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Феникс плюс кино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/feniks-plus-kino.png",Феникс плюс кино
+#EXTINF:-1 tvg-name="Феникс+Кино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/feniks-plus-kino.png",Феникс+Кино
 https://mfe.svc.ott.zala.by/hls/CH_FENIKS_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="VHS-ка" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vhs-ka.png",VHS-ка
@@ -375,21 +375,21 @@ https://mfe.svc.ott.zala.by/hls/36H3IDE2WF_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Точка отрыва" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tochka-otryva.png",Точка отрыва
 https://mfe.svc.ott.zala.by/hls/CH_TOCHKAOTRIVA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Viju+ Premiere" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-premiere.png",Viju+ Premiere
+#EXTINF:-1 tvg-name="viju+ Premiere" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-premiere.png",viju+ Premiere
 https://mfe.svc.ott.zala.by/hls/CH_TV1000PREMIUM_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Viju+ Megahit" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-megahit.png",Viju+ Megahit
+#EXTINF:-1 tvg-name="viju+ Megahit" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-megahit.png",viju+ Megahit
 https://mfe.svc.ott.zala.by/hls/CH_TV1000MEGAHIT_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Viju+ Comedy" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-comedy.png",Viju+ Comedy
+#EXTINF:-1 tvg-name="viju+ Comedy" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-comedy.png",viju+ Comedy
 https://mfe.svc.ott.zala.by/hls/CH_TV1000COMEDY_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="ViP Serial HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-serial.png",ViP Serial
+#EXTINF:-1 tvg-name="VIP Serial HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-serial.png",VIP Serial
 https://mfe.svc.ott.zala.by/hls/CH_VIPSERIAL_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Sport" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-sport.png",Viasat Sport
 https://mfe.svc.ott.zala.by/hls/CH_VIASPORT_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name="Viju+ Planet" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-nature-history-hd.png",Viju+ Planet
+#EXTINF:-1 tvg-name=viju+ Planet" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-nature-history-hd.png",viju+ Planet
 https://mfe.svc.ott.zala.by/hls/CH_VIASATNATUREHD_HLS/variant.m3u8
 
