@@ -390,6 +390,6 @@ https://mfe.svc.ott.zala.by/hls/CH_VIPSERIAL_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Viasat Sport" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-sport.png",Viasat Sport
 https://mfe.svc.ott.zala.by/hls/CH_VIASPORT_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-name=viju+ Planet" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-nature-history-hd.png",viju+ Planet
+#EXTINF:-1 tvg-name="viju+ Planet" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-nature-history-hd.png",viju+ Planet
 https://mfe.svc.ott.zala.by/hls/CH_VIASATNATUREHD_HLS/variant.m3u8
 
