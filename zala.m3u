@@ -111,6 +111,9 @@ https://mfe.svc.ott.zala.by/hls/CH_TV1000NOVELLA_HLS/variant.m3u8
 #EXTINF:-1 tvg-name="Иллюзион+" tvg-logo="https://asinsckievgeni.github.io/zala/logos/illuzion-plus.png",Иллюзион+
 https://mfe.svc.ott.zala.by/hls/CH_ILLUZPLUS_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-name="Тех лет ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tex-let-tv.png",Тех лет ТВ
+https://mfe.svc.ott.zala.by/hls/CH_TEHLET_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-name="Киносерия International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinoseria.png",Киносерия
 https://mfe.svc.ott.zala.by/hls/CH_KINOSERIA_HLS/variant.m3u8
 
