@@ -1,0 +1,3 @@
+https://asinsckievgeni.github.io/zala/zala.m3u
+https://github.com/asinsckievgeni/zala/releases/download/latest/epg.xml.gz
+

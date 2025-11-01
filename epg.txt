@@ -1,0 +1,2 @@
+https://epg.online/epg.xml.gz
+http://epg.one/epg2.xml.gz
