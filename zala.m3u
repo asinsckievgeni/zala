@@ -255,7 +255,7 @@ https://mfe.svc.ott.zala.by/hls/5MWF7XUWZI_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="unikum" tvg-name="Уникум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/unikum.png",Уникум
 https://mfe.svc.ott.zala.by/hls/CH_UNIKUM_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="umka" tvg-name="Умка" tvg-logo="https://asinskievgeni.github.io/zala/logos/umka.png",Умка
+#EXTINF:-1 tvg-id="umka" tvg-name="Умка" tvg-logo="https://asinsckievgeni.github.io/zala/logos/umka.png",Умка
 https://mfe.svc.ott.zala.by/hls/CH_UMKA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="kxl-hd" tvg-name="KHL Prime" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kxl-hd.png",KHL Prime
