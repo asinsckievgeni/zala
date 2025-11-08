@@ -30,7 +30,7 @@ https://mfe.svc.ott.zala.by/hls/JRKVSUPCP8_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="belarus2hd" tvg-name="Беларусь 2" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus2hd.png" group-title="Беларусь" ,Беларусь 2
 https://mfe.svc.ott.zala.by/hls/GCKYZGGFEJ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="yasnae" tvg-name="Яснае ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png" group-title="Развлекательные" ,ЯСНАе TV
+#EXTINF:-1 tvg-id="yasnae" tvg-name="Яснае ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png" group-title="Беларусь" ,ЯСНАе TV
 https://mfe.svc.ott.zala.by/hls/CH_MINSKTV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="tnt-int-by" tvg-name="ТНТ-International (Беларусь)" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tnt-int-by.png" group-title="Развлекательные" ,ТНТ International
