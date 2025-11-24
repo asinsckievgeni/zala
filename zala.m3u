@@ -93,7 +93,7 @@ https://mfe.svc.ott.zala.by/hls/CH_KINOCOMED_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" tvg-logo="https://asinsckievgeni.github.io/zala/logos/cinema-ru.png",Cinema
 https://mfe.svc.ott.zala.by/hls/CH_CINEMA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="bollywood-hd" tvg-name="Bollywood HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/bollywood.png",Bollywood HD
+#EXTINF:-1 tvg-id="bollywood-hd" tvg-name="Bollywood HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/bollywood-hd.png",Bollywood HD
 https://mfe.svc.ott.zala.by/hls/CH_BOLLYWOODHD_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino-premium.png",Дом кино Премиум
