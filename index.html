@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zala IPTV</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    pre {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    .note {
+      background: #fff8e1;
+      padding: 12px;
+      border-left: 4px solid #ffc107;
+      margin: 16px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Zala IPTV</h1>
+
+  <h2>Файлы</h2>
+  <ul>
+    <li><a href="epg.txt">epg.txt</a> — список ссылок на источники EPG.</li>
+    <li><a href="zala.m3u">zala.m3u</a> — сгенерированный плейлист.</li>
+    <li><a href="url_playlist.txt">url_playlist.txt</a> — ссылка на плейлист для подключения по сети.</li>
+  </ul>
+
+  <h2>Логотипы каналов ТВ</h2>
+  <p><a href="logos/">Папка с логотипами каналов</a></p>
+
+  <div class="note">
+    ⚠️ <strong>Важно:</strong> Все логотипы предназначены исключительно для личного некоммерческого использования. Их распространение, модификация или использование в коммерческих целях запрещены без прямого разрешения правообладателей.
+  </div>
+
+  <h2>Генератор плейлиста Zala</h2>
+  <p>Этот скрипт позволяет создать плейлист IPTV из незашифрованных каналов для сервиса Zala, используя данные из их API.</p>
+  <p>Идея взята <a href="https://github.com/valujin/zala-iptv-playlist-generator">отсюда</a>. Скрипт переделан с помощью ИИ, так как автор не умеет программировать.</p>
+
+  <h3>Зависимости</h3>
+  <p>Для работы скрипта необходимо установить модуль <code>requests</code>:</p>
+  <pre>pip install requests</pre>
+
+  <h3>Использование</h3>
+  <p>Просто запустите скрипт без аргументов:</p>
+  <pre>python zala.py</pre>
+  <p>Скрипт отправит GET-запрос по ссылке на файл с данными о каналах и получит ответ в формате JSON. Затем он пройдёт по списку каналов и добавит в плейлист те, которые не зашифрованы и используют протокол HLS. Плейлист будет сохранён в файле <code>zala.m3u</code> в той же папке, где находится скрипт. Скрипт также выведет сообщение об успешном создании плейлиста.</p>
+
+  <h3>Лицензия</h3>
+  <p>Скрипт распространяется под лицензией MIT. См. файл <a href="LICENSE">LICENSE</a> для подробностей.</p>
+
+</body>
+</html>
