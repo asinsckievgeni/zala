@@ -216,12 +216,6 @@ https://mfe.svc.ott.zala.by/hls/CH_ZHIVPRIRODA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" tvg-name="Шансон-TB" tvg-logo="https://asinsckievgeni.github.io/zala/logos/shanson-tv.png",Шансон-ТВ
 https://mfe.svc.ott.zala.by/hls/3K2MEWVSDF_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="mezzo-live-hd" tvg-name="Mezzo Live HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mezzo-live-hd.png",Mezzo Live HD
-https://mfe.svc.ott.zala.by/hls/CH_MEZZOLIVEHD_HLS/variant.m3u8
-
-#EXTINF:-1 tvg-id="mezzo" tvg-name="Mezzo" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mezzo.png",Mezzo
-https://mfe.svc.ott.zala.by/hls/CH_MEZZOTV_HLS/variant.m3u8
-
 #EXTINF:-1 tvg-id="domashny-int" tvg-name="Домашний" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domashny-int.png",Домашний
 https://mfe.svc.ott.zala.by/hls/CH_DOMINT_HLS/variant.m3u8
 
