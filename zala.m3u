@@ -246,6 +246,9 @@ https://mfe.svc.ott.zala.by/hls/CH_KHLPRIME_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="m1global" tvg-name="MMA-TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/m1global.png",MMA-TV
 https://mfe.svc.ott.zala.by/hls/CH_M1_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-id="extreme-sports" tvg-name="Extreme sports" tvg-logo="https://asinsckievgeni.github.io/zala/logos/extreme-sports.png",Extreme sports
+https://mfe.svc.ott.zala.by/hls/CH_EXTREME_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir-seriala.png",Мир сериала
 https://mfe.svc.ott.zala.by/hls/CH_MIRSERIALA_HLS/variant.m3u8
 
