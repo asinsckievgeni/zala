@@ -1,1 +1,65 @@
+name: Автообновление EPG с epg.online
 
+on:
+  schedule:
+    - cron: '0 2 */2 * *'  # Каждые 2 дня в 02:00 UTC (можно изменить)
+  workflow_dispatch:        # Кнопка "Run workflow" вручную
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # Нужно для создания релизов
+
+    steps:
+      - name: 🛠 Установка утилит
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl
+
+      - name: 🔽 Скачивание EPG как Firefox
+        run: |
+          curl -L \
+            -A "Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" \
+            -H "Accept: */*" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -H "Accept-Encoding: gzip, deflate, br" \
+            -H "Sec-Fetch-Mode: navigate" \
+            -H "Sec-Fetch-Site: none" \
+            --http2 \
+            --connect-timeout 30 \
+            --max-time 300 \
+            -o epg.xml.gz \
+            "https://epg.online/epg.xml.gz"
+
+      - name: 🔐 Расчёт хэша текущего файла
+        run: |
+          CURRENT_HASH=$(sha256sum epg.xml.gz | cut -d' ' -f1)
+          echo "CURRENT_HASH=$CURRENT_HASH" >> $GITHUB_ENV
+          echo "$CURRENT_HASH" > current_hash.txt
+          echo "Текущий хэш: $CURRENT_HASH"
+
+      - name: 📥 Попытка скачать предыдущий хэш из релиза
+        run: |
+          gh release download auto-epg -p epg_hash.txt 2>/dev/null || echo "none" > prev_hash.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: 🔄 Сравнение и обновление релиза
+        run: |
+          if [ ! -f prev_hash.txt ] || [ "$(cat current_hash.txt)" != "$(cat prev_hash.txt)" ]; then
+            echo "🆕 Файл изменился — создаём/обновляем релиз..."
+            echo "${{ env.CURRENT_HASH }}" > epg_hash.txt
+            # Пытаемся создать релиз, если не существует
+            gh release create auto-epg epg.xml.gz epg_hash.txt \
+              --title "EPG $(date -u +'%Y-%m-%d %H:%M UTC')" \
+              --notes "Автообновление с epg.online" 2>/dev/null || \
+            # Или обновляем существующий
+            gh release upload auto-epg epg.xml.gz epg_hash.txt --clobber
+            echo "✅ Релиз обновлён!"
+          else
+            echo "✅ Файл не изменился — ничего не делаем."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
