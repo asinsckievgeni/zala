@@ -124,7 +124,7 @@ https://mfe.svc.ott.zala.by/hls/CH_TEHLET_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_KINOSERIA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="viju-tv1000-romantica" tvg-name="viju TV1000 romantica" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viju-tv1000-romantica.png",viju TV1000 Драма
-https://mfe.svc.ott.zala.by/hls/CH_CH_TV1000DRAMA_HLS/variant.m3u8
+https://mfe.svc.ott.zala.by/hls/CH_TV1000DRAMA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="zee-tv" tvg-name="Индия" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zee-tv.png",Индия
 https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
