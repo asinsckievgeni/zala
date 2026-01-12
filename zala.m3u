@@ -213,6 +213,9 @@ https://mfe.svc.ott.zala.by/hls/CH_PEREZ_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="sarafan" tvg-name="Сарафан" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sarafan.png",Сарафан
 https://mfe.svc.ott.zala.by/hls/Y9GP8UFTZO_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-id="kluch" tvg-name="Ключ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kluch.png",Ключ
+https://mfe.svc.ott.zala.by/hls/CH_KEY_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-id="lapki-live" tvg-name="Лапки Live" tvg-logo="https://asinsckievgeni.github.io/zala/logos/lapki-live.png",Лапки Live
 https://mfe.svc.ott.zala.by/hls/CH_LAPKI_HLS/variant.m3u8
 
