@@ -63,9 +63,6 @@ https://mfe.svc.ott.zala.by/hls/CH_PLUSTV_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="mir24" tvg-name="Мир 24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir24.png",Мир 24
 https://mfe.svc.ott.zala.by/hls/CH_MIR24HD_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="sony-scifi" tvg-name=".sci-fi" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-scifi.png",.sci-fi
-https://mfe.svc.ott.zala.by/hls/EDVYQYGHF8_HLS/variant.m3u8
-
 #EXTINF:-1 tvg-id="kinomiks-int" tvg-name="Киномикс International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinomiks-int.png",Киномикс
 https://mfe.svc.ott.zala.by/hls/VVG76MWUGX_HLS/variant.m3u8
 
@@ -123,7 +120,7 @@ https://mfe.svc.ott.zala.by/hls/CH_TV1000DRAMA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zee-tv" tvg-name="Индия" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zee-tv.png",Индия
 https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="novellatv" tvg-name="Novella TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/novellatv.png",NovellaTV
+#EXTINF:-1 tvg-id="novellatv" tvg-name="Novella TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/novellatv.png",Novella TV
 https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="pobeda" tvg-name="Победа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/pobeda.png",Победа
