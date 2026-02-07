@@ -36,8 +36,20 @@ https://mfe.svc.ott.zala.by/hls/CH_MINSKTV_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="tnt-int-by" tvg-name="ТНТ-International (Беларусь)" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tnt-int-by.png",ТНТ International
 https://mfe.svc.ott.zala.by/hls/MVNP5DA4U9_HLS/variant.m3u8
 
+#EXTINF:-1 tvg-id="belarus4-brest" tvg-name="Беларусь 4 Брест" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-brest.png",Беларусь 4 Брест
+https://mfe.svc.ott.zala.by/hls/CH_BELARUS4BR_HLS/variant.m3u8
+
 #EXTINF:-1 tvg-id="belarus4-vitebsk" tvg-name="Беларусь 4 Витебск" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-vitebsk.png",Беларусь 4
 https://mfe.svc.ott.zala.by/hls/CH_BELARUS4VIT_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="belarus4-gomel" tvg-name="Беларусь 4 Гомель" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-gomel.png",Беларусь 4 Гомель
+https://mfe.svc.ott.zala.by/hls/CH_BELARUS4GOM_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="belarus4-grodno" tvg-name="Беларусь 4 Гродно" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-grodno.png",Беларусь 4 Гродно
+https://mfe.svc.ott.zala.by/hls/CH_BELARUS4GR_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="belarus4-mogilev" tvg-name="Беларусь 4 Могилев" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-mogilev.png",Беларусь 4 Могилев
+https://mfe.svc.ott.zala.by/hls/CH_BELARUS4MOG_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="tv3-by" tvg-name="ТВ-3 Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv3-by.png",ТВ-3 Беларусь
 https://mfe.svc.ott.zala.by/hls/KLQQ9ECGSQ_HLS/variant.m3u8
@@ -62,6 +74,15 @@ https://mfe.svc.ott.zala.by/hls/CH_PLUSTV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="mir24" tvg-name="Мир 24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir24.png",Мир 24
 https://mfe.svc.ott.zala.by/hls/CH_MIR24HD_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="pervy-gorodskoy-gom" tvg-name="Первый городской (Гомель)" tvg-logo="https://asinsckievgeni.github.io/zala/logos/pervy-gorodskoy-gom.png",Первый городской (Гомель)
+https://mfe.svc.ott.zala.by/hls/CH_GOMEL_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="grodno-plus" tvg-name="Гродно +" tvg-logo="https://asinsckievgeni.github.io/zala/logos/grodno-plus.png",Гродно +
+https://mfe.svc.ott.zala.by/hls/CH_GRODNO_HLS/variant.m3u8
+
+#EXTINF:-1 tvg-id="2-kanal-mogilev" tvg-name="ТВ2 Могилев" tvg-logo="https://asinsckievgeni.github.io/zala/logos/2-kanal-mogilev.png",ТВ2 Могилев
+https://mfe.svc.ott.zala.by/hls/CH_TV2_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="kinomiks-int" tvg-name="Киномикс International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinomiks-int.png",Киномикс
 https://mfe.svc.ott.zala.by/hls/VVG76MWUGX_HLS/variant.m3u8
