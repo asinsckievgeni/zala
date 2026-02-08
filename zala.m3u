@@ -288,7 +288,7 @@ https://mfe.svc.ott.zala.by/hls/CH_MUVI_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinoxit.png",Кинохит
 https://mfe.svc.ott.zala.by/hls/HDOHSSZQCP_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="domkino" tvg-name="Дом кино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino.png",Дом кино
+#EXTINF:-1 tvg-id="domkino-int" tvg-name="Дом кино International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino-int.png",Дом кино
 https://mfe.svc.ott.zala.by/hls/CH_DOMKINO_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="nst" tvg-name="НСТ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nst.png",НСТ
