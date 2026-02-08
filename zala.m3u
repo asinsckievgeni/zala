@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/asinsckievgeni/zala/releases/download/latest/epg.xml.gz"
+#EXTM3U url-tvg="https://doas.top/epg.xml.gz"
 
 #EXTINF:-1 tvg-id="belarus1hd" tvg-name="Беларусь 1" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus1hd.png",Беларусь 1
 https://mfe.svc.ott.zala.by/hls/M52YG9EVYD_HLS/variant.m3u8
