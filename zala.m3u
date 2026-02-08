@@ -216,7 +216,7 @@ https://mfe.svc.ott.zala.by/hls/CH_ZHIVPRIRODA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" tvg-name="Шансон-TB" tvg-logo="https://asinsckievgeni.github.io/zala/logos/shanson-tv.png",Шансон-ТВ
 https://mfe.svc.ott.zala.by/hls/3K2MEWVSDF_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="domashny-int" tvg-name="Домашний" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domashny-int.png",Домашний
+#EXTINF:-1 tvg-id="domashny-int" tvg-name="Домашний International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domashny-int.png",Домашний
 https://mfe.svc.ott.zala.by/hls/CH_DOMINT_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" tvg-logo="https://asinsckievgeni.github.io/zala/logos/perec-int.png",Перец
