@@ -54,7 +54,7 @@ https://mfe.svc.ott.zala.by/hls/CH_BELARUS4GR_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="belarus4-mogilev" tvg-name="Беларусь 4 Могилев" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belarus4-mogilev.png",Беларусь 4 Могилев
 https://mfe.svc.ott.zala.by/hls/CH_BELARUS4MOG_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="tv3-by" tvg-name="ТВ-3 Беларусь" aspect-ratio="16:9"  tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv3-by.png",ТВ-3 Беларусь
+#EXTINF:-1 tvg-id="tv3-by" tvg-name="ТВ-3 Беларусь"  tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv3-by.png",ТВ-3 Беларусь
 https://mfe.svc.ott.zala.by/hls/KLQQ9ECGSQ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="8kanal-by" tvg-name="8 канал Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/8by.png",8 Канал
