@@ -33,7 +33,7 @@ https://mfe.svc.ott.zala.by/hls/GCKYZGGFEJ_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="voentv-by" tvg-name="Воен ТВ [BY]" tvg-logo="https://asinsckievgeni.github.io/zala/logos/voentv-by.png" group-title="Беларусь",Воен ТВ
 https://mfe.svc.ott.zala.by/hls/CH_VOENTV_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="yasnae" tvg-name="Яснае ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png" group-title="Развлекательные",ЯСНАе TV
+#EXTINF:-1 tvg-id="yasnae" tvg-name="Яснае ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/yasnae.png" group-title="Беларусь",ЯСНАе TV
 https://mfe.svc.ott.zala.by/hls/CH_MINSKTV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="tnt-int-by" tvg-name="ТНТ-International (Беларусь)" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tnt-int-by.png" group-title="Развлекательные",ТНТ International
