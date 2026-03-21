@@ -216,7 +216,7 @@ https://mfe.svc.ott.zala.by/hls/CH_ZALSUDA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="belros" tvg-name="БелРос" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belros.png" group-title="Беларусь",БелРос
 https://mfe.svc.ott.zala.by/hls/CH_TRO_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="hdl" tvg-shift="1" tvg-name="Точка.РФ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/hdl.png" group-title="Познавательные",Точка.РФ
+#EXTINF:-1 tvg-id="hdl" tvg-shift=1 tvg-name="Точка.РФ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/hdl.png" group-title="Познавательные",Точка.РФ
 https://mfe.svc.ott.zala.by/hls/CH_TOCHKARF_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="nano-hd" tvg-name="Nano HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nano-hd.png" group-title="Познавательные",Nano HD
