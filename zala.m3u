@@ -153,7 +153,7 @@ https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-name="Победа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/pobeda.png" group-title="Кино и сериалы",Победа
 https://mfe.svc.ott.zala.by/hls/CH_POBEDA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-name="Наш Кинопоказ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ
+#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-name="Наш Кинопоказ HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ
 https://mfe.svc.ott.zala.by/hls/CH_ZAL13_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="eurokino" tvg-name="Еврокино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/eurokino.png" group-title="Кино и сериалы",ЕвроКино
