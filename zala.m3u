@@ -57,10 +57,10 @@ https://mfe.svc.ott.zala.by/hls/CH_BELARUS4MOG_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-by" tvg-name="ТВ-3 Беларусь"  tvg-logo="https://asinsckievgeni.github.io/zala/logos/tv3-by.png" group-title="Развлекательные",ТВ-3 Беларусь
 https://mfe.svc.ott.zala.by/hls/KLQQ9ECGSQ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="8kanal-by" tvg-name="8 канал Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/8by.png" group-title="Беларусь",8 Канал
+#EXTINF:-1 tvg-id="8kanal-by" tvg-name="8 канал Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/8by.png" group-title="Беларусь",8 Канал Беларусь
 https://mfe.svc.ott.zala.by/hls/ZXUZZKCA6P_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="ru-tv-by" tvg-name="RU.TV Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ru-tv-by.png" group-title="Музыкальные",RU.TV
+#EXTINF:-1 tvg-id="ru-tv-by" tvg-name="RU.TV Беларусь" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ru-tv-by.png" group-title="Музыкальные",RU.TV Беларусь
 https://mfe.svc.ott.zala.by/hls/XW6AGFSZJ8_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-name="Europa Plus TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV
@@ -153,7 +153,7 @@ https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-name="Победа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/pobeda.png" group-title="Кино и сериалы",Победа
 https://mfe.svc.ott.zala.by/hls/CH_POBEDA_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-name="Наш Кинопоказ HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ
+#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-name="Наш Кинопоказ HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ HD
 https://mfe.svc.ott.zala.by/hls/CH_ZAL13_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="eurokino" tvg-name="Еврокино" tvg-logo="https://asinsckievgeni.github.io/zala/logos/eurokino.png" group-title="Кино и сериалы",ЕвроКино
@@ -207,7 +207,7 @@ https://mfe.svc.ott.zala.by/hls/CH_NTVSTIL_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx" tvg-name="В мире животных" tvg-logo="https://asinsckievgeni.github.io/zala/logos/v-mire-zhivotnyx.png" group-title="Познавательные",В мире животных
 https://mfe.svc.ott.zala.by/hls/CH_VMIREZHIV_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-name="Дикая рыбалка HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/dikaya-rybalka-hd.png" group-title="Развлекательные",Дикая рыбалка
+#EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-name="Дикая рыбалка HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/dikaya-rybalka-hd.png" group-title="Развлекательные",Дикая рыбалка HD
 https://mfe.svc.ott.zala.by/hls/CH_DIKAYARIBALKA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="zal-suda" tvg-name="Зал суда" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zal-suda.png" group-title="Развлекательные",Зал суда
@@ -255,7 +255,7 @@ https://mfe.svc.ott.zala.by/hls/CH_KEY_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="lapki-live" tvg-name="Лапки Live" tvg-logo="https://asinsckievgeni.github.io/zala/logos/lapki-live.png" group-title="Познавательные",Лапки Live
 https://mfe.svc.ott.zala.by/hls/CH_LAPKI_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="kultura" tvg-name="Россия К" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kultura.png" group-title="Познавательные",Россия-Культура
+#EXTINF:-1 tvg-id="kultura" tvg-name="Россия К" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kultura.png" group-title="Познавательные",Россия К
 https://mfe.svc.ott.zala.by/hls/9XJGVFFAWZ_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="anekdottv" tvg-name="Анекдот ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/anekdottv.png" group-title="Развлекательные",Анекдот ТВ
@@ -330,7 +330,7 @@ https://mfe.svc.ott.zala.by/hls/ZIVFRAFR2I_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="oruzhie" tvg-name="Оружие" tvg-logo="https://asinsckievgeni.github.io/zala/logos/oruzhie.png" group-title="Познавательные",Оружие
 https://mfe.svc.ott.zala.by/hls/EWEXU8FWAZ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="galaxy-tv" tvg-name="Galaxy TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png" group-title="Познавательные",Тайны Галактики
+#EXTINF:-1 tvg-id="galaxy-tv" tvg-name="Galaxy TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png" group-title="Познавательные",Galaxy TV
 https://mfe.svc.ott.zala.by/hls/CH_GALAXY_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="glazami-turista" tvg-name="Глазами туриста" tvg-logo="https://asinsckievgeni.github.io/zala/logos/glazami-turista.png" group-title="Познавательные",Глазами туриста
@@ -381,7 +381,7 @@ https://mfe.svc.ott.zala.by/hls/CH_FENIKS_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="vhs-ka" tvg-name="VHS-ка" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vhs-ka.png" group-title="Кино и сериалы",VHS-ка
 https://mfe.svc.ott.zala.by/hls/CH_VHS_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" tvg-name="Охотник и рыболов HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/oxotnik-i-rybolov-hd.png" group-title="Развлекательные",Охотник и рыболов
+#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" tvg-name="Охотник и рыболов HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/oxotnik-i-rybolov-hd.png" group-title="Развлекательные",Охотник и рыболов HD
 https://mfe.svc.ott.zala.by/hls/4FDNBEDGFV_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="sovmultf" tvg-name="Советские мультфильмы" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sovmultf.png" group-title="Детские",Советские мультфильмы
@@ -414,7 +414,7 @@ https://mfe.svc.ott.zala.by/hls/CH_TV1000MEGAHIT_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" tvg-name="viju+ Comedy" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-comedy.png" group-title="Кино и сериалы",viju+ Comedy
 https://mfe.svc.ott.zala.by/hls/CH_TV1000COMEDY_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="vip-serial" tvg-name="VIP Serial HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-serial.png" group-title="Кино и сериалы",VIP Serial
+#EXTINF:-1 tvg-id="vip-serial" tvg-name="VIP Serial HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/vip-serial.png" group-title="Кино и сериалы",VIP Serial HD
 https://mfe.svc.ott.zala.by/hls/CH_VIPSERIAL_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="viasat-sport" tvg-name="Viasat Sport" tvg-logo="https://asinsckievgeni.github.io/zala/logos/viasat-sport.png" group-title="Спорт",Viasat Sport
