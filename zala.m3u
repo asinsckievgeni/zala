@@ -330,7 +330,7 @@ https://mfe.svc.ott.zala.by/hls/ZIVFRAFR2I_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="oruzhie" tvg-name="Оружие" tvg-logo="https://asinsckievgeni.github.io/zala/logos/oruzhie.png" group-title="Познавательные",Оружие
 https://mfe.svc.ott.zala.by/hls/EWEXU8FWAZ_HLS/variant.m3u8
 
-#EXTINF:-1 tvg-id="galaxy-tv" tvg-name="Galaxy TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png" group-title="Познавательные",Galaxy TV
+#EXTINF:-1 tvg-id="galaxy-tv" tvg-name="Тайны Галактики" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png" group-title="Познавательные",Тайны Галактики
 https://mfe.svc.ott.zala.by/hls/CH_GALAXY_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="glazami-turista" tvg-name="Глазами туриста" tvg-logo="https://asinsckievgeni.github.io/zala/logos/glazami-turista.png" group-title="Познавательные",Глазами туриста
