@@ -141,7 +141,7 @@ https://mfe.svc.ott.zala.by/hls/CH_VMIREZHIV_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_DIKAYARIBALKA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zal-suda" tvg-name="Зал суда" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zal-suda.png" group-title="Развлекательные",Зал суда
 https://mfe.svc.ott.zala.by/hls/CH_ZALSUDA_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="belros" tvg-name="БелРос" tvg-logo="https://asinsckievgeni.github.io/zala/logos/belros.png" group-title="Беларусь",БелРос
+#EXTINF:-1 tvg-id="soyuzny" tvg-name="Союзный" tvg-logo="https://asinsckievgeni.github.io/zala/logos/soyuzny.png" group-title="Беларусь",Союзный
 https://mfe.svc.ott.zala.by/hls/CH_TRO_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="hdl" tvg-name="Точка.РФ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/hdl.png" group-title="Познавательные",Точка.РФ
 https://mfe.svc.ott.zala.by/hls/CH_TOCHKARF_HLS/variant.m3u8
