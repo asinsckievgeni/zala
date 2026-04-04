@@ -125,7 +125,7 @@ https://mfe.svc.ott.zala.by/hls/XMC4NSRVN9_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_RYBALKAIOHOTA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="voprosy-i-otvety" tvg-name="Вопросы и ответы" tvg-logo="https://asinsckievgeni.github.io/zala/logos/voprosy-i-otvety.png" group-title="Познавательные",Вопросы и ответы
 https://mfe.svc.ott.zala.by/hls/CH_VOPROSY_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="arsenaltv" tvg-shift="1" tvg-name="Арсенал" tvg-logo="https://asinsckievgeni.github.io/zala/logos/arsenaltv.png" group-title="Кино и сериалы",Арсенал
+#EXTINF:-1 tvg-id="arsenaltv" tvg-shift="0" tvg-name="Арсенал" tvg-logo="https://asinsckievgeni.github.io/zala/logos/arsenaltv.png" group-title="Кино и сериалы",Арсенал
 https://mfe.svc.ott.zala.by/hls/CH_ARSENAL_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" tvg-name="НТВ Право" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ntv-pravo.png" group-title="Развлекательные",НТВ Право
 https://mfe.svc.ott.zala.by/hls/CH_NTVPRAVO_HLS/variant.m3u8
