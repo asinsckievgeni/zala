@@ -199,7 +199,7 @@ https://mfe.svc.ott.zala.by/hls/CH_M1_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_RUSEXTREME_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="extreme-sports-ru" tvg-name="Extreme Sports [RU]" tvg-logo="https://asinsckievgeni.github.io/zala/logos/extreme-sports.png" group-title="Спорт",Extreme sports
 https://mfe.svc.ott.zala.by/hls/CH_EXTREME_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="avto24" tvg-name="Авто24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/avto24.png" group-title="Развлекательные",Авто24
+#EXTINF:-1 tvg-id="avto24" tvg-name="Авто24" tvg-logo="https://asinsckievgeni.github.io/zala/logos/avto24.png" group-title="Познавательные",Авто24
 https://mfe.svc.ott.zala.by/hls/CH_AVTO24_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mir-seriala.png" group-title="Кино и сериалы",Мир сериала
 https://mfe.svc.ott.zala.by/hls/CH_MIRSERIALA_HLS/variant.m3u8
