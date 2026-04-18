@@ -1,5 +1,6 @@
 import requests
 import urllib3
+from itertools import product
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -9,17 +10,19 @@ package_ids = [
 ]
 location_ids = ["1111", "10000081", "10000071", "10000080", "10000082", "10000083", "10000084", "10000085"]
 
-url_list = []
-for pkg in package_ids:
-    for loc in location_ids:
-        url_list.append(
-            f"http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels"
-            f"?channelPackageId={pkg}&locationId={loc}&from=0&to=9999&lang=RUS"
-        )
+INFO_DESIRED = "CH_1INFORMVIT_HLS"
+
+url_list = [
+    f"http://fe.svc.ott.zala.by/CacheClientJson/json/ChannelPackage/list_channels"
+    f"?channelPackageId={pkg}&locationId={loc}&from=0&to=9999&lang=RUS"
+    for pkg, loc in product(package_ids, location_ids)
+]
 
 all_channels = []
+print(f"Загрузка {len(url_list)} страниц...")
 
-for url in url_list:
+for i, url in enumerate(url_list, 1):
+    print(f"Обработка {i}/{len(url_list)}")
     try:
         response = requests.get(url, verify=False, timeout=8)
         if response.status_code != 200:
@@ -30,14 +33,11 @@ for url in url_list:
     except Exception:
         continue
 
-# === Правильные идентификаторы в URL ===
-INFO_DESIRED = "CH_1INFORMVIT_HLS"
-BEL4_DESIRED = "CH_BELARUS4VIT_HLS"  # ← ИСПРАВЛЕНО!
+print(f"Загружено {len(all_channels)} записей")
 
 filtered_channels = []
 seen_names = set()
 info_added = False
-bel4_added = False
 
 for ch in all_channels:
     bcname = ch.get("bcname", "")
@@ -68,7 +68,6 @@ for ch in all_channels:
     if protocol and protocol != "hls":
         continue
 
-    # === Первый информационный ===
     if bcname == "Первый информационный":
         if not info_added and INFO_DESIRED in ott_url:
             ch["_final_url"] = ott_url
@@ -76,21 +75,11 @@ for ch in all_channels:
             info_added = True
         continue
 
-    # === Беларусь 4 (все варианты имени) ===
-    if bcname.startswith("Беларусь 4"):
-        if not bel4_added and BEL4_DESIRED in ott_url:
-            ch["_final_url"] = ott_url
-            filtered_channels.append(ch)
-            bel4_added = True
-        continue
-
-    # === Остальные каналы ===
     if bcname not in seen_names:
         ch["_final_url"] = ott_url
         filtered_channels.append(ch)
         seen_names.add(bcname)
 
-# Сортировка
 def safe_int(x):
     try:
         return int(x)
@@ -99,24 +88,25 @@ def safe_int(x):
 
 filtered_channels.sort(key=lambda c: safe_int(c.get("num", 999999)))
 
-print("Найденные каналы:")
+print("\nНайденные каналы:")
 for ch in filtered_channels:
     num = ch.get("num", "").strip()
     bcname = ch.get("bcname", "Unknown").strip()
     print(f"[{num}] {bcname}")
 
-# Запись плейлиста
 with open("zala.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n")
     for ch in filtered_channels:
         bcname = str(ch.get("bcname", "Unknown")).strip()
-        logo = str(ch.get("logo", "")).strip()
+        # Формируем ссылку на логотип
+        logo = f"https://asinsckievgeni.github.io/zala/logos/.png"
         ott_url = ch.get("_final_url", "")
 
         if not ott_url.endswith(".m3u8"):
             continue
 
-        f.write(f'#EXTINF:-1 tvg-name="{bcname}" tvg-logo="{logo}",{bcname}\n')
+        f.write(f'#EXTINF:-1 tvg-id="" tvg-name="{bcname}" tvg-logo="{logo}" group-title="",{bcname}\n')
         f.write(f'{ott_url}\n')
 
-print(f"\nПлейлист сохранен: zala.m3u ({len(filtered_channels)} каналов)")
+print(f"\nГотово! Плейлист сохранен в файл: zala.m3u")
+print(f"Всего каналов: {len(filtered_channels)}")
