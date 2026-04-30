@@ -151,8 +151,6 @@ https://mfe.svc.ott.zala.by/hls/CH_TOCHKARF_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_NANOHD_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="luxury-hd" tvg-name="Luxury HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/luxury-hd.png" group-title="Развлекательные",Luxury HD
 https://mfe.svc.ott.zala.by/hls/CH_LUXURYHD_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="zhivaya-priroda" tvg-name="Живая природа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zhivaya-priroda.png" group-title="Познавательные",Живая природа
-https://mfe.svc.ott.zala.by/hls/CH_ZHIVPRIRODA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="muzhskoy" tvg-name="Мужской" tvg-logo="https://asinsckievgeni.github.io/zala/logos/muzhskoy.png" group-title="Развлекательные",Мужской
 https://mfe.svc.ott.zala.by/hls/CH_MUZHSKOY_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="365-dnej" tvg-name="365 дней ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/365-dnej.png" group-title="Познавательные",365 дней ТВ
@@ -229,8 +227,6 @@ https://mfe.svc.ott.zala.by/hls/ZIVFRAFR2I_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/EWEXU8FWAZ_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="galaxy-tv" tvg-name="Тайны Галактики" tvg-logo="https://asinsckievgeni.github.io/zala/logos/galaxy-tv.png" group-title="Познавательные",Тайны Галактики
 https://mfe.svc.ott.zala.by/hls/CH_GALAXY_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="glazami-turista" tvg-name="Глазами туриста" tvg-logo="https://asinsckievgeni.github.io/zala/logos/glazami-turista.png" group-title="Познавательные",Глазами туриста
-https://mfe.svc.ott.zala.by/hls/CH_GLAZTUR_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="karusel-int" tvg-name="Карусель International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/karusel.png" group-title="Детские",Карусель
 https://mfe.svc.ott.zala.by/hls/CH_KARUSEL_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="ryzhy" tvg-name="Рыжий" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ryzhy.png" group-title="Детские",Рыжий
