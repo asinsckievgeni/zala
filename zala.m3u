@@ -139,8 +139,6 @@ https://mfe.svc.ott.zala.by/hls/CH_NTVSTIL_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_DIKAYARIBALKA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zal-suda" tvg-name="Зал суда" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zal-suda.png" group-title="Развлекательные",Зал суда
 https://mfe.svc.ott.zala.by/hls/CH_ZALSUDA_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-tema" tvg-name="Наша тема" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nasha-tema.png" group-title="Познавательные",Наша тема
-https://mfe.svc.ott.zala.by/hls/CH_NASHATEMA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="nano-hd" tvg-name="Nano HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nano-hd.png" group-title="Познавательные",Nano HD
 https://mfe.svc.ott.zala.by/hls/CH_NANOHD_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="luxury-hd" tvg-name="Luxury HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/luxury-hd.png" group-title="Развлекательные",Luxury HD
@@ -148,8 +146,6 @@ https://mfe.svc.ott.zala.by/hls/CH_LUXURYHD_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" tvg-name="Шансон-TB" tvg-logo="https://asinsckievgeni.github.io/zala/logos/shanson-tv.png" group-title="Музыкальные",Шансон-ТВ
 https://mfe.svc.ott.zala.by/hls/3K2MEWVSDF_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_MUZYKALIVE_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="bridge-hd" tvg-name="Bridge TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/bridge-hd.png" group-title="Музыкальные",Bridge TV
-https://mfe.svc.ott.zala.by/hls/CH_BRIDGETVDEL_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-name="Домашний International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domashny-int.png" group-title="Развлекательные",Домашний
 https://mfe.svc.ott.zala.by/hls/CH_DOMINT_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" tvg-logo="https://asinsckievgeni.github.io/zala/logos/perec-int.png" group-title="Развлекательные",Перец
