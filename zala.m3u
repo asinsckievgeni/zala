@@ -135,6 +135,8 @@ https://mfe.svc.ott.zala.by/hls/CH_ZOOPARK_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_BOBER_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-style" tvg-name="НТВ Стиль" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ntv-style.png" group-title="Развлекательные",НТВ Стиль
 https://mfe.svc.ott.zala.by/hls/CH_NTVSTIL_HLS/variant.m3u8
+#EXTINF:-1 tvg-id="zhivi-aktivno" tvg-name="Живи активно" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zhivi-aktivno.png" group-title="Спорт",Живи активно
+https://mfe.svc.ott.zala.by/hls/CH_ZHIVIAKTIVNO_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-name="Дикая рыбалка HD" tvg-logo="https://asinsckievgeni.github.io/zala/logos/dikaya-rybalka-hd.png" group-title="Развлекательные",Дикая рыбалка
 https://mfe.svc.ott.zala.by/hls/CH_DIKAYARIBALKA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zal-suda" tvg-name="Зал суда" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zal-suda.png" group-title="Развлекательные",Зал суда
