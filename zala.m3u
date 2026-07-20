@@ -85,7 +85,7 @@ https://mfe.svc.ott.zala.by/hls/CH_NASHENOVOYEKINO_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/ZXUZZKCA6P_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie-int" tvg-name="Киносвидание International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinosvidanie-int.png" group-title="Кино и сериалы",Киносвидание
 https://mfe.svc.ott.zala.by/hls/CH_KINOSVIDANIE_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="detectivejam" tvg-name="DetectiveJam" tvg-logo="https://asinsckievgeni.github.io/zala/logos/detectivejam.png" group-title="",DetectiveJam
+#EXTINF:-1 tvg-id="detectivejam" tvg-name="DetectiveJam" tvg-logo="https://asinsckievgeni.github.io/zala/logos/detectivejam.png" group-title="Развлекательные",DetectiveJam
 https://mfe.svc.ott.zala.by/hls/CH_DETECTIVEJAM_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="mosfilm-int" tvg-name="Мосфильм. Золотая коллекция Int" tvg-logo="https://asinsckievgeni.github.io/zala/logos/mosfilm-int.png" group-title="Кино и сериалы",Мосфильм. Золотая коллекция
 https://mfe.svc.ott.zala.by/hls/CH_MOSFILM_HLS/variant.m3u8
