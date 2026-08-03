@@ -75,6 +75,8 @@ https://mfe.svc.ott.zala.by/hls/CH_5INTERNAT_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_KINOCOMED_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" tvg-logo="https://asinsckievgeni.github.io/zala/logos/cinema-ru.png" group-title="Кино и сериалы",Cinema
 https://mfe.svc.ott.zala.by/hls/CH_CINEMA_HLS/variant.m3u8
+#EXTINF:-1 tvg-id="kinoseria-int" tvg-name="Киносерия International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinoseria-int.png" group-title="Кино и сериалы",Киносерия
+https://mfe.svc.ott.zala.by/hls/CH_KINOSERIA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" tvg-logo="https://asinsckievgeni.github.io/zala/logos/domkino-premium.png" group-title="Кино и сериалы",Дом кино Премиум
 https://mfe.svc.ott.zala.by/hls/CH_DOMPREMIUM_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" tvg-name="НТВ Сериал" tvg-logo="https://asinsckievgeni.github.io/zala/logos/ntv-serial.png" group-title="Кино и сериалы",НТВ Сериал
@@ -95,8 +97,8 @@ https://mfe.svc.ott.zala.by/hls/CH_TV1000NOVELLA_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_ILLUZPLUS_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="tex-let-tv" tvg-name="Тех лет ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tex-let-tv.png" group-title="Кино и сериалы",Тех лет ТВ
 https://mfe.svc.ott.zala.by/hls/CH_TEHLET_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="kinoseria-int" tvg-name="Киносерия International" tvg-logo="https://asinsckievgeni.github.io/zala/logos/kinoseria-int.png" group-title="Кино и сериалы",Киносерия
-https://mfe.svc.ott.zala.by/hls/CH_KINOSERIA_HLS/variant.m3u8
+#EXTINF:-1 tvg-id="sony-turbo" tvg-name="sony-turbo" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sonygturbo.png" group-title="",.Black
+https://mfe.svc.ott.zala.by/hls/CH_BLACK_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zee-tv" tvg-name="Индия" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zee-tv.png" group-title="Кино и сериалы",Индия
 https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="novellatv" tvg-name="Novella TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/novellatv.png" group-title="Кино и сериалы",Novella TV
