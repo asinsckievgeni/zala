@@ -97,7 +97,7 @@ https://mfe.svc.ott.zala.by/hls/CH_TV1000NOVELLA_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_ILLUZPLUS_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="tex-let-tv" tvg-name="Тех лет ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/tex-let-tv.png" group-title="Кино и сериалы",Тех лет ТВ
 https://mfe.svc.ott.zala.by/hls/CH_TEHLET_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="sony-turbo" tvg-name="sony-turbo" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sonygturbo.png" group-title="Кино и сериалы",.Black
+#EXTINF:-1 tvg-id="sony-turbo" tvg-name="sony-turbo" tvg-logo="https://asinsckievgeni.github.io/zala/logos/sony-turbo.png" group-title="Кино и сериалы",.Black
 https://mfe.svc.ott.zala.by/hls/CH_BLACK_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="zee-tv" tvg-name="Индия" tvg-logo="https://asinsckievgeni.github.io/zala/logos/zee-tv.png" group-title="Кино и сериалы",Индия
 https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
