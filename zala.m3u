@@ -105,7 +105,7 @@ https://mfe.svc.ott.zala.by/hls/CH_INDIYA_HLS/variant.m3u8
 https://mfe.svc.ott.zala.by/hls/CH_NOVELLATV_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-name="Победа" tvg-logo="https://asinsckievgeni.github.io/zala/logos/pobeda.png" group-title="Кино и сериалы",Победа
 https://mfe.svc.ott.zala.by/hls/CH_POBEDA_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="nash-kinopokaz" tvg-name="Наш Кинопоказ" tvg-shift="6" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ
+#EXTINF:-1 tvg-id="nash-kinopokaz" tvg-name="Наш Кинопоказ" tvg-shift="-3" tvg-logo="https://asinsckievgeni.github.io/zala/logos/nash-kinopokaz.png" group-title="Кино и сериалы",Наш Кинопоказ
 https://mfe.svc.ott.zala.by/hls/CH_ZAL13_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="sava-tv" tvg-name="Saga TV" tvg-logo="https://asinsckievgeni.github.io/zala/logos/saga-tv.png" group-title="Кино и сериалы",Saga TV
 https://mfe.svc.ott.zala.by/hls/CH_SAGATV_HLS/variant.m3u8
