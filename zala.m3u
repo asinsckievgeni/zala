@@ -255,6 +255,9 @@ https://mfe.svc.ott.zala.by/hls/9XJGVFFAWZ_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="anekdottv" tvg-name="Анекдот ТВ" tvg-logo="https://asinsckievgeni.github.io/zala/logos/anekdottv.png" group-title="Развлекательные",Анекдот ТВ
 https://mfe.svc.ott.zala.by/hls/CH_ANEKDOT_HLS/variant.m3u8
 #EXTHTTP:{"User-Agent":"Mozilla/5.0", "Referer":"https://tv.zala.by/"}
+#EXTINF:-1 tvg-id="epic" tvg-name="epic" tvg-logo="https://asinsckievgeni.github.io/zala/logos/epic.png" group-title="Познавательные",Epic
+https://mfe.svc.ott.zala.by/hls/CH_EPIC_HLS/variant.m3u8
+#EXTHTTP:{"User-Agent":"Mozilla/5.0", "Referer":"https://tv.zala.by/"}
 #EXTINF:-1 tvg-id="detsky-mir" tvg-name="Детский мир" tvg-logo="https://asinsckievgeni.github.io/zala/logos/detsky-mir.png" group-title="Детские",Детский мир
 https://mfe.svc.ott.zala.by/hls/9F67L3DGIF_HLS/variant.m3u8
 #EXTHTTP:{"User-Agent":"Mozilla/5.0", "Referer":"https://tv.zala.by/"}
